@@ -1,0 +1,228 @@
+PODS:
+  - audio_session (0.0.1):
+    - Flutter
+  - better_player_enhanced (0.0.1):
+    - Cache (~> 6.0.0)
+    - Flutter
+    - GCDWebServer
+    - HLSCachingReverseProxyServer
+    - PINCache
+  - Cache (6.0.0)
+  - CwlCatchException (2.2.1):
+    - CwlCatchExceptionSupport (~> 2.2.1)
+  - CwlCatchExceptionSupport (2.2.1)
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_chrome_cast (1.4.1):
+    - Flutter
+    - google-cast-sdk (~> 4.8)
+    - Protobuf
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - google-cast-sdk (4.8.4)
+  - Google-Mobile-Ads-SDK (11.2.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - google_mobile_ads (5.1.0):
+    - Flutter
+    - Google-Mobile-Ads-SDK (~> 11.2.0)
+    - webview_flutter_wkwebview
+  - GoogleAds-IMA-iOS-SDK (3.30.0)
+  - GoogleUserMessagingPlatform (3.1.0)
+  - HLSCachingReverseProxyServer (0.1.0):
+    - GCDWebServer (~> 3.5)
+    - PINCache (>= 3.0.1-beta.3)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - interactive_media_ads (0.0.1):
+    - Flutter
+    - GoogleAds-IMA-iOS-SDK (~> 3.23)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - PINCache (3.0.4):
+    - PINCache/Arc-exception-safe (= 3.0.4)
+    - PINCache/Core (= 3.0.4)
+  - PINCache/Arc-exception-safe (3.0.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.4):
+    - PINOperation (~> 1.2.3)
+  - PINOperation (1.2.3)
+  - pip (0.0.1):
+    - Flutter
+  - Protobuf (5.34.1)
+  - screen_brightness_ios (0.1.0):
+    - Flutter
+  - screen_protector (1.5.1):
+    - Flutter
+    - ScreenProtectorKit (= 1.5.1)
+  - ScreenProtectorKit (1.5.1)
+  - share_plus (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - speech_to_text (7.2.0):
+    - CwlCatchException
+    - Flutter
+    - FlutterMacOS
+  - sqflite_darwin (0.0.4):
+    - Flutter
+    - FlutterMacOS
+  - THEOplayer-Integration-THEOlive (10.6.1):
+    - THEOplayer-Integration-THEOlive/Base (= 10.6.1)
+  - THEOplayer-Integration-THEOlive/Base (10.6.1)
+  - theoplayer_ios (1.0.3):
+    - Flutter
+    - THEOplayer-Integration-THEOlive (= 10.6.1)
+    - THEOplayerSDK-core (= 10.6.1)
+  - THEOplayerSDK-core (10.6.1)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - volume_controller (0.0.1):
+    - Flutter
+  - wakelock_plus (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - audio_session (from `.symlinks/plugins/audio_session/ios`)
+  - better_player_enhanced (from `.symlinks/plugins/better_player_enhanced/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_chrome_cast (from `.symlinks/plugins/flutter_chrome_cast/ios`)
+  - google_mobile_ads (from `.symlinks/plugins/google_mobile_ads/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - interactive_media_ads (from `.symlinks/plugins/interactive_media_ads/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - pip (from `.symlinks/plugins/pip/ios`)
+  - screen_brightness_ios (from `.symlinks/plugins/screen_brightness_ios/ios`)
+  - screen_protector (from `.symlinks/plugins/screen_protector/ios`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - speech_to_text (from `.symlinks/plugins/speech_to_text/darwin`)
+  - sqflite_darwin (from `.symlinks/plugins/sqflite_darwin/darwin`)
+  - theoplayer_ios (from `.symlinks/plugins/theoplayer_ios/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+  - volume_controller (from `.symlinks/plugins/volume_controller/ios`)
+  - wakelock_plus (from `.symlinks/plugins/wakelock_plus/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - Cache
+    - CwlCatchException
+    - CwlCatchExceptionSupport
+    - GCDWebServer
+    - google-cast-sdk
+    - Google-Mobile-Ads-SDK
+    - GoogleAds-IMA-iOS-SDK
+    - GoogleUserMessagingPlatform
+    - HLSCachingReverseProxyServer
+    - PINCache
+    - PINOperation
+    - Protobuf
+    - ScreenProtectorKit
+    - THEOplayer-Integration-THEOlive
+    - THEOplayerSDK-core
+
+EXTERNAL SOURCES:
+  audio_session:
+    :path: ".symlinks/plugins/audio_session/ios"
+  better_player_enhanced:
+    :path: ".symlinks/plugins/better_player_enhanced/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_chrome_cast:
+    :path: ".symlinks/plugins/flutter_chrome_cast/ios"
+  google_mobile_ads:
+    :path: ".symlinks/plugins/google_mobile_ads/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  interactive_media_ads:
+    :path: ".symlinks/plugins/interactive_media_ads/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  pip:
+    :path: ".symlinks/plugins/pip/ios"
+  screen_brightness_ios:
+    :path: ".symlinks/plugins/screen_brightness_ios/ios"
+  screen_protector:
+    :path: ".symlinks/plugins/screen_protector/ios"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  speech_to_text:
+    :path: ".symlinks/plugins/speech_to_text/darwin"
+  sqflite_darwin:
+    :path: ".symlinks/plugins/sqflite_darwin/darwin"
+  theoplayer_ios:
+    :path: ".symlinks/plugins/theoplayer_ios/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+  volume_controller:
+    :path: ".symlinks/plugins/volume_controller/ios"
+  wakelock_plus:
+    :path: ".symlinks/plugins/wakelock_plus/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/darwin"
+
+SPEC CHECKSUMS:
+  audio_session: 9bb7f6c970f21241b19f5a3658097ae459681ba0
+  better_player_enhanced: 8167c1292d10ceb773554d168a666347495fa47f
+  Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
+  CwlCatchException: 7acc161b299a6de7f0a46a6ed741eae2c8b4d75a
+  CwlCatchExceptionSupport: 54ccab8d8c78907b57f99717fb19d4cc3bce02dc
+  device_info_plus: 21fcca2080fbcd348be798aa36c3e5ed849eefbe
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_chrome_cast: db3f7ddddedfb14be1836d979a2e87deeda80cf8
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  google-cast-sdk: 32f65af50d164e3c475e79ad123db3cc26fbcd37
+  Google-Mobile-Ads-SDK: 5a6d005a6cb5b5e8f4c7b69ca05cdea79c181139
+  google_mobile_ads: e7ff9b0b955462fe3d397eb5cda398c13c1bb3b2
+  GoogleAds-IMA-iOS-SDK: a1a9989f967fdf2a08f7df29e56b4871026495ee
+  GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
+  HLSCachingReverseProxyServer: 59935e1e0244ad7f3375d75b5ef46e8eb26ab181
+  image_picker_ios: e0ece4aa2a75771a7de3fa735d26d90817041326
+  interactive_media_ads: 2b3cd24f0028030dd499f12b1e7c183cb4043627
+  package_info_plus: af8e2ca6888548050f16fa2f1938db7b5a5df499
+  permission_handler_apple: 4ed2196e43d0651e8ff7ca3483a069d469701f2d
+  PINCache: d9a87a0ff397acffe9e2f0db972ac14680441158
+  PINOperation: fb563bcc9c32c26d6c78aaff967d405aa2ee74a7
+  pip: 6d6bd5ae42bf68b1c34d56dcced0d7c46b683d18
+  Protobuf: b51e2d95aace0c1ce911b7483315efb7c3ab037f
+  screen_brightness_ios: 28c5fbdb40634de44f86025d84470158ad4df48c
+  screen_protector: 18c6aca2dc5d2a832f6787a5318f97f03e9d3150
+  ScreenProtectorKit: 6ceb3e0808341a9bc15d175bff40dfdd4b32da71
+  share_plus: 50da8cb520a8f0f65671c6c6a99b3617ed10a58a
+  shared_preferences_foundation: 7036424c3d8ec98dfe75ff1667cb0cd531ec82bb
+  speech_to_text: 3b313d98516d3d0406cea424782ec25470c59d19
+  sqflite_darwin: 20b2a3a3b70e43edae938624ce550a3cbf66a3d0
+  THEOplayer-Integration-THEOlive: 023912fcdb33192932b2a5bb26363df2e17b3f02
+  theoplayer_ios: d43402e6bc0f64777efbdd99ae8eb3c37fed0c47
+  THEOplayerSDK-core: 5331b9658212e828ad8264f0fd6dc1d17c07dae4
+  url_launcher_ios: 7a95fa5b60cc718a708b8f2966718e93db0cef1b
+  video_player_avfoundation: dd410b52df6d2466a42d28550e33e4146928280a
+  volume_controller: ca1cde542ee70fad77d388f82e9616488110942b
+  wakelock_plus: e29112ab3ef0b318e58cfa5c32326458be66b556
+  webview_flutter_wkwebview: 8ebf4fded22593026f7dbff1fbff31ea98573c8d
+
+PODFILE CHECKSUM: 0255085692fdaf129d490d6e72babe0ffac80a80
+
+COCOAPODS: 1.16.2

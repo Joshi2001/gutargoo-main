@@ -1,0 +1,46 @@
+{
+  "provider": "google_pay",
+  "data": {
+    "environment": "TEST",
+    "apiVersion": 2,
+    "apiVersionMinor": 0,
+    "allowedPaymentMethods": [
+      {
+        "type": "CARD",
+        "tokenizationSpecification": {
+          "type": "PAYMENT_GATEWAY",
+          "parameters": {
+            "gateway": "example",
+            "gatewayMerchantId": "exampleGatewayMerchantId"
+          }
+        },
+        "parameters": {
+          "allowedCardNetworks": ["VISA", "MASTERCARD"],
+          "allowedAuthMethods": ["PAN_ONLY", "CRYPTOGRAM_3DS"],
+          "billingAddressRequired": false
+        }
+      },
+      {
+        "type": "UPI",
+        "parameters": {
+          "payeeVpa": "your-upi@paytm",
+          "payeeName": "GutrGoo Pro",
+          "referenceUrl": "https://yourdomain.com",
+          "mcc": "5816",
+          "transactionReferenceId": "ORDER_ID"
+        },
+        "tokenizationSpecification": {
+          "type": "DIRECT",
+          "parameters": {}
+        }
+      }
+    ],
+    "merchantInfo": {
+      "merchantName": "GutrGoo Pro"
+    },
+    "transactionInfo": {
+      "countryCode": "IN",
+      "currencyCode": "INR"
+    }
+  }
+}
